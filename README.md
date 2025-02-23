@@ -3,3 +3,8 @@
 
 video de  [gendiff](https://youtu.be/CEnO8mjL5TI).
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/5d862001d06677beeff5/maintainability)](https://codeclimate.com/github/JhonFredyTorres/fullstack-javascript-project-103/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5d862001d06677beeff5/test_coverage)](https://codeclimate.com/github/JhonFredyTorres/fullstack-javascript-project-103/test_coverage)
+
+video de pruebas automatizadas y cobertura con Jest [gendiff](https://youtu.be/-kGiLhWhhV0).
+
