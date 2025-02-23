@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1740284860025" clover="3.2.0">
-  <project timestamp="1740284860025" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="26" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1740285715649" clover="3.2.0">
+  <project timestamp="1740285715649" name="All files">
+    <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="11" methods="3" coveredmethods="3" elements="37" coveredelements="35" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2"/>
     <file name="gendiff.js" path="C:\Users\Jhon\fullstack-javascript-project-103\src\gendiff.js">
-      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
-      <line num="5" count="1" type="stmt"/>
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
       <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+    </file>
+    <file name="parse.js" path="C:\Users\Jhon\fullstack-javascript-project-103\src\parse.js">
+      <metrics statements="9" coveredstatements="8" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="2" type="cond" truecount="3" falsecount="1"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
