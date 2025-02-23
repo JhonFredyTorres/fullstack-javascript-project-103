@@ -1,0 +1,26 @@
+{
+  "name": "@codica/code",
+  "version": "1.0.0",
+  "description": "proyecto 2",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gendiff": "./gendiff.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonFredyTorres/fullstack-javascript-project-103.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonFredyTorres/fullstack-javascript-project-103/issues"
+  },
+  "homepage": "https://github.com/JhonFredyTorres/fullstack-javascript-project-103#readme",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
