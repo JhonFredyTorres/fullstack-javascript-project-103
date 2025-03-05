@@ -10,3 +10,5 @@ video de pruebas automatizadas y cobertura con Jest [gendiff](https://youtu.be/-
 
 
 video de pruebas archivos YAML y pruebas exitosas [gendiff](https://youtu.be/_jRkyKgr29M).
+
+video de pruebas Comparación recursiva y pruebas exitosas [gendiff](https://youtu.be/EaXPwMr8ENQ).

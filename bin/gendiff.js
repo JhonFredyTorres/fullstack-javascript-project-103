@@ -1,20 +1,22 @@
 #!/usr/bin/env node
-// @ts-check
 
-import { Command } from 'commander';
+import { program } from 'commander';
 import genDiff from '../src/gendiff.js';
-
-const program = new Command();
 
 program
   .name('gendiff')
   .description('Compares two configuration files and shows a difference.')
-  .version('1.0.1')
+  .version('1.0.0')
   .arguments('<filepath1> <filepath2>')
-  .option('-f, --format <type>', 'output format')
-  .action((filepath1, filepath2) => {
-    const diff = genDiff(filepath1, filepath2);
-    console.log(diff);
+  .option('-f, --format <type>', 'output format (stylish, plain, json)', 'stylish')
+  .action((filepath1, filepath2, options) => {
+    try {
+      const diff = genDiff(filepath1, filepath2, options.format);
+      console.log(diff);
+    } catch (error) {
+      console.error(`Error: ${error.message}`);
+      process.exit(1);
+    }
   });
 
 program.parse(process.argv);
