@@ -14,3 +14,5 @@ video de pruebas archivos YAML y pruebas exitosas [gendiff](https://youtu.be/_jR
 video de pruebas Comparación recursiva y pruebas exitosas [gendiff](https://youtu.be/EaXPwMr8ENQ).
 
 Ejemplo con formato plain [plain](https://youtu.be/w8O1kdcjZog).
+
+Ejemplo de salida en formato  [JSON](https://youtu.be/POjaE19MoMo).
